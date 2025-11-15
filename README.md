@@ -1,3 +1,5 @@
+# EdgeFlow
+
 **EdgeFlow — Streaming Event-Triggered Point-on-Wave Measurements (FPGA prototype)**
 
 **Project:** Implementation and FPGA emulation of the prototype described in the paper "Streaming Event-Triggered Point-on-Wave Measurements for Disturbance Monitoring and Analysis" (IEEE) — link: https://ieeexplore.ieee.org/document/11205344
@@ -109,5 +111,4 @@ If you want, I can:
 - Insert example figures/tables (I can produce plots from your experiment logs if provided).
 - Add command-line Vitis scripts tailored to a specific target board (provide board/platform names).
 - Add a minimal MATLAB script to automate threshold sweeps and C++ code generation.
-# EdgeFlow
 
