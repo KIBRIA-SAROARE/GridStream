@@ -1,0 +1,69 @@
+================================================================================
+PMU DSE PARETO FRONT ANALYSIS
+================================================================================
+
+Total Configurations Evaluated: 13
+  - Float Baseline: 12
+  - Fixed-Point: 1
+
+TARGETS:
+  Spartan-7: 6 configurations
+  Zynq-US+: 7 configurations
+
+================================================================================
+PARETO-OPTIMAL CONFIGURATIONS
+================================================================================
+
+Overall:
+--------------------------------------------------------------------------------
+  Config: Float, Target=Spartan-7, II=2, Unroll=2
+    Area: LUT=8417, FF=3998, DSP=28, BRAM=0
+    Timing: Period=14.300ns, Fmax=69.9MHz, Target=50MHz
+    Events: 278
+
+  Config: Float, Target=Zynq-US+, II=2, Unroll=2
+    Area: LUT=9303, FF=6651, DSP=30, BRAM=0
+    Timing: Period=3.320ns, Fmax=301.2MHz, Target=300MHz
+    Events: 278
+
+  Config: A, Target=Zynq-US+, II=1, Unroll=1
+    Area: LUT=60150, FF=194618, DSP=1579, BRAM=0
+    Timing: Period=2.456ns, Fmax=407.2MHz, Target=300MHz
+    Events: 433
+
+
+Spartan-7:
+--------------------------------------------------------------------------------
+  Config: Float, Target=Spartan-7, II=2, Unroll=2
+    Area: LUT=8417, FF=3998, DSP=28, BRAM=0
+    Timing: Period=14.300ns, Fmax=69.9MHz, Target=50MHz
+    Events: 278
+
+
+Zynq-US+:
+--------------------------------------------------------------------------------
+  Config: Float, Target=Zynq-US+, II=2, Unroll=2
+    Area: LUT=9303, FF=6651, DSP=30, BRAM=0
+    Timing: Period=3.320ns, Fmax=301.2MHz, Target=300MHz
+    Events: 278
+
+  Config: A, Target=Zynq-US+, II=1, Unroll=1
+    Area: LUT=60150, FF=194618, DSP=1579, BRAM=0
+    Timing: Period=2.456ns, Fmax=407.2MHz, Target=300MHz
+    Events: 433
+
+
+DSP_LUT:
+--------------------------------------------------------------------------------
+  Config: Float, Target=Spartan-7, II=2, Unroll=2
+    Area: LUT=8417, FF=3998, DSP=28, BRAM=0
+    Timing: Period=14.300ns, Fmax=69.9MHz, Target=50MHz
+    Events: 278
+
+
+II_Comparison:
+--------------------------------------------------------------------------------
+  Config: Float, Target=Spartan-7, II=2, Unroll=2
+    Area: LUT=8417, FF=3998, DSP=28, BRAM=0
+    Timing: Period=14.300ns, Fmax=69.9MHz, Target=50MHz
+    Events: 278
