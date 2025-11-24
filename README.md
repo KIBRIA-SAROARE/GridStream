@@ -12,7 +12,7 @@ This repository contains:
 ## Repository Structure
 
 ```
-EdgeFlow/
+GridStream/
 ├── pmu_baseline/           # Baseline PMU C++ HLS implementation
 │   ├── pmu_top.cpp        # Main PMU processing pipeline
 │   ├── pmu_top.h          # Header with constants and type definitions
