@@ -2,13 +2,13 @@
 PMU DSE PARETO FRONT ANALYSIS
 ================================================================================
 
-Total Configurations Evaluated: 13
+Total Configurations Evaluated: 228
   - Float Baseline: 12
-  - Fixed-Point: 1
+  - Fixed-Point: 216
 
 TARGETS:
-  Spartan-7: 6 configurations
-  Zynq-US+: 7 configurations
+  Spartan-7: 150 configurations
+  Zynq-US+: 78 configurations
 
 ================================================================================
 PARETO-OPTIMAL CONFIGURATIONS
@@ -26,10 +26,10 @@ Overall:
     Timing: Period=3.320ns, Fmax=301.2MHz, Target=300MHz
     Events: 278
 
-  Config: A, Target=Zynq-US+, II=1, Unroll=1
-    Area: LUT=60150, FF=194618, DSP=1579, BRAM=0
+  Config: B, Target=Zynq-US+, II=1, Unroll=1
+    Area: LUT=59125, FF=193592, DSP=1578, BRAM=0
     Timing: Period=2.456ns, Fmax=407.2MHz, Target=300MHz
-    Events: 433
+    Events: 355
 
 
 Spartan-7:
@@ -47,10 +47,10 @@ Zynq-US+:
     Timing: Period=3.320ns, Fmax=301.2MHz, Target=300MHz
     Events: 278
 
-  Config: A, Target=Zynq-US+, II=1, Unroll=1
-    Area: LUT=60150, FF=194618, DSP=1579, BRAM=0
+  Config: B, Target=Zynq-US+, II=1, Unroll=1
+    Area: LUT=59125, FF=193592, DSP=1578, BRAM=0
     Timing: Period=2.456ns, Fmax=407.2MHz, Target=300MHz
-    Events: 433
+    Events: 355
 
 
 DSP_LUT:
@@ -67,3 +67,13 @@ II_Comparison:
     Area: LUT=8417, FF=3998, DSP=28, BRAM=0
     Timing: Period=14.300ns, Fmax=69.9MHz, Target=50MHz
     Events: 278
+
+  Config: A, Target=Spartan-7, II=4, Unroll=1
+    Area: LUT=10145, FF=3012, DSP=39, BRAM=0
+    Timing: Period=14.554ns, Fmax=68.7MHz, Target=50MHz
+    Events: 433
+
+  Config: B, Target=Spartan-7, II=4, Unroll=1
+    Area: LUT=10397, FF=3291, DSP=39, BRAM=0
+    Timing: Period=14.592ns, Fmax=68.5MHz, Target=50MHz
+    Events: 416
