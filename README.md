@@ -1,4 +1,4 @@
-# EdgeFlow - PMU Design Space Exploration
+# GridStream - PMU Design Space Exploration
 
 High-performance Phasor Measurement Unit (PMU) implementation with comprehensive Design Space Exploration (DSE) for FPGA deployment.
 
