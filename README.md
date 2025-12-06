@@ -117,13 +117,7 @@ csynth_design
 | Float II=2 | Zynq-US+ | 9.3K | 6.7K | 30 | 301.2 | 278 |
 | Fixed II=1 | Zynq-US+ | 60.2K | 194.6K | 1579 | 407.2 | 433 |
 
-## License
 
-[Add your license here]
-
-## Contact
-
-[Add contact information]
 # PMU Design Space Exploration & Validation Report
 
 ## 1. Executive Summary
@@ -142,31 +136,15 @@ The Design Space Exploration (DSE) successfully identified Pareto-optimal config
 | **Fixed (HighRes)** | Fixed (32,12) | 17,175 | 6.68 | 2510 | 294 | **FAIL (Overflow)** |
 | **Fixed (Valid)** | Fixed (32,16) | **969.77** | 6.69 | 2510 | 291 | **PASS (Approx)** |
 
-## 3. Root Cause Analysis
+## Citation
 
-### A. Dynamic Range Mismatch (The "17,000" Error)
-The initial design assumed normalized input signals (Amplitude ~1.0 or ~325). However, the testbench processes raw voltage data with amplitudes up to **20,000**.
+If you use this work, please cite it as follows:
 
-- **Family A/B (`ap_fixed<16,6>`)**: Integer range [-32, 31]. Input 20,000 caused immediate wrap-around overflow.
-- **Family E (`ap_fixed<32,12>`)**: Integer range [-2048, 2047]. Input 20,000 still overflowed.
-- **Family F (`ap_fixed<32,16>`)**: Integer range [-32,768, 32,767]. **Successfully captured the input signal.**
-
-### B. Precision vs. Range Trade-off (The "969" Error)
-Even with Family F, there is a ~5% magnitude error (969 on 20,000).
-- **Cause**: `demod_t` was set to `ap_fixed<32,16>`.
-- **Constraint**: 16 bits for Integer (to avoid overflow) leaves only 16 bits for Fractional.
-- **Impact**: FIR coefficients (~0.0005) are quantized with only 16 fractional bits (resolution 0.000015). This 3% coefficient error accumulates through the filter, leading to the 5% output error.
-- **Solution**: A wider type (e.g., `ap_fixed<40,16>`) is needed to satisfy *both* range (16 int bits) and precision (24 frac bits).
-
-### C. ROCOF Stagnation
-The ROCOF RMSE remained high because the calculated ROCOF values were often small and quantized to zero or stuck due to the `rocof_t` resolution relative to the `FS` scaling factor.
-
-## 4. Conclusion for Paper
-The DSE demonstrates that while HLS can easily optimize for Area and Throughput (finding II=1 designs), **Accuracy is a strict constraint that dictates the minimum bit-width**.
-- **Optimization Strategy**: Start with a "Safe" wide type (e.g., 40-bit) to ensure correctness, then prune bit-widths until error thresholds are met.
-- **Critical Finding**: Input dynamic range analysis is paramount. A design optimized for 325V failed catastrophically when driven with 20kV signals.
-
-## 5. Recommendations
-1.  **Adopt Family F (or wider)** as the baseline for any fixed-point implementation.
-2.  **Use Float** for the final paper comparison if "perfect" accuracy is required, as it balances area/performance well on modern FPGAs (DSP usage is efficient).
-3.  **Future Work**: Implement a dynamic scaling block (AGC) at the input to normalize signals to range [-1, 1], allowing the use of smaller, more efficient fixed-point types (like Family A) for the core processing.
+```bibtex
+@misc{gridstream,
+  author = {Saroare, Md Kibria and Ahmed, Md Rubel and Hasnat, Md Abul},
+  title = {GridStream: PMU Design Space Exploration},
+  howpublished = {\url{https://github.com/KIBRIA-SAROARE/GridStream}},
+  year = {2025}
+}
+```
