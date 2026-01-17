@@ -141,13 +141,17 @@ The Design Space Exploration (DSE) successfully identified Pareto-optimal config
 If you use this work, please cite it as follows:
 
 ```
-@inproceedings{gridstream2026,
-  author    = {Saroare, Md Kibria and Hasnat, Md Abul and Ahmed, Md Rubel},
-  title     = {GridStream: A Hardware-Efficient Framework for Bandwidth-Constrained Point-on-Wave Disturbance Monitoring},
-  booktitle = {Proceedings of the 2026 IEEE Texas Power and Energy Conference (TPEC)},
-  year      = {2026},
-  organization = {IEEE},
-  note      = {Code available at \url{https://github.com/KIBRIA-SAROARE/GridStream}}
+@article{gridstream_techrxiv2026,
+  author  = {Saroare, Md Kibria and Hasnat, Md Abul and Ahmed, Md Rubel},
+  title   = {GridStream: A Hardware-Efficient Framework for Bandwidth-Constrained Point-on-Wave Disturbance Monitoring},
+  journal = {Proceedings of the 2026 IEEE Texas Power and Energy Conference (TPEC)},
+  year    = {2026},
+  month   = jan,
+  doi     = {10.36227/techrxiv.176834178.83076178/v1},
+  note    = {Preprint}
 }
+
+
+
 
 ```
