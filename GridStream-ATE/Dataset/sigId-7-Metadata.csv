@@ -1,0 +1,2 @@
+ID, Data Source, Description, Device/site, Event Tags, Sensor, Rate (Hz), Event Date, Time (UTC), Wave Start, Wave End, Duration (s)
+7, Provider 1,"A lightning strike caused a recloser on F_0000026 to operate twice and caused primary wire to fall to the ground.", Site0010, Events::External::Lightning Strike;  Equipment::Interrupting Device::Recloser;  Conditions::Equipment Conditions::Live wire on ground, , 7692.0, 2006-08-01, 20:00:00.000000, 20:00:00.000000, 20:00:00.233203, 0.233

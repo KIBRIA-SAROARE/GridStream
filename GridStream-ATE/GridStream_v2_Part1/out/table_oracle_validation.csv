@@ -1,0 +1,2 @@
+n_environments,n_channels,seed,pad_reports,precision_vs_any_injected,precision_vs_padded_injected,report_recall_vs_major,window_recall_vs_major,n_major_windows
+60,177,31337,5,0.2526804860614725,0.4385275196568978,0.12059134107708554,0.31213872832369943,173

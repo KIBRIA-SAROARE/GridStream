@@ -1,0 +1,12 @@
+check,value,note
+"v1 FIR array vs firwin(257, 10 Hz, hamming)",max |diff| = 8.27e-05,"the v1 design is reproduced, but the transcribed array in et_pmu_scaled.py carries three tap-level defects"
+v1 FIR array symmetry,max |c - reverse(c)| = 8.27e-05,"a linear-phase FIR must be exactly symmetric; tap 88 is duplicated, tap 139 is dropped, tap 239 is duplicated"
+v1 FIR DC gain,sum(taps) = 0.992065,should be 1.0; the defects cost 0.79 % of DC gain
+16-iteration CORDIC vs exact atan2/hypot,"max rel. magnitude error 6.35e-10, max angle error 3.05e-05 rad","v1 front end, used unchanged"
+hardware log2 (priority encoder + 64-entry ROM),max error 0.0224 octaves,identical primitive in Python and in exported C++
+"GESL time base, record 45",n/fs = 1.9968 s vs metadata Duration 1.9960 s,metadata Duration is truncated to 3 decimals
+"GESL time base, record 55",n/fs = 1.9968 s vs metadata Duration 1.9960 s,metadata Duration is truncated to 3 decimals
+"GESL time base, record 677",n/fs = 16.0000 s vs metadata Duration 15.9990 s,metadata Duration is truncated to 3 decimals
+"GESL time base, record 901",n/fs = 12.0000 s vs metadata Duration 11.9990 s,metadata Duration is truncated to 3 decimals
+"GESL time base, record 907",n/fs = 10.0000 s vs metadata Duration 9.9990 s,metadata Duration is truncated to 3 decimals
+"GESL time base, record 971",n/fs = 0.2341 s vs metadata Duration 0.2340 s,metadata Duration is truncated to 3 decimals

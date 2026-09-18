@@ -1,0 +1,2 @@
+ID, Data Source, Description, Device/site, Event Tags, Sensor, Rate (Hz), Event Date, Time (UTC), Wave Start, Wave End, Duration (s)
+45, Provider 1,"t8937 100amp lightening strike.", Site0002_F_0000047, Events::External::Lightning Strike, , 15385.0, 2007-08-30, 20:00:00.000000, 20:00:00.000000, 20:00:01.996800, 1.996

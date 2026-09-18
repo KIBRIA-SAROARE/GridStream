@@ -1,0 +1,2 @@
+ID, Data Source, Description, Device/site, Event Tags, Sensor, Rate (Hz), Event Date, Time (UTC), Wave Start, Wave End, Duration (s)
+55, Provider 1,"t3521 100amp woodpecker attack.", Site0002_F_0000047, Events::Wildlife::Bird;  Events::Wildlife::Small Bird, , 15385.0, 2007-04-13, 20:00:00.000000, 20:00:00.000000, 20:00:01.996800, 1.996
