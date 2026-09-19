@@ -1,0 +1,135 @@
+[
+ {
+  "feeder": 1,
+  "start_report": 58,
+  "start_s": 0.48333333333333334,
+  "channels": [
+   0,
+   1,
+   2
+  ],
+  "pre_reports": 6,
+  "end_report": 73,
+  "end_s": 0.6166666666666667,
+  "duration_s": 0.13333333333333336
+ },
+ {
+  "feeder": 2,
+  "start_report": 123,
+  "start_s": 1.025,
+  "channels": [
+   3
+  ],
+  "pre_reports": 6,
+  "end_report": 137,
+  "end_s": 1.15,
+  "duration_s": 0.125
+ },
+ {
+  "feeder": 0,
+  "start_report": 249,
+  "start_s": 2.075,
+  "channels": [
+   3
+  ],
+  "pre_reports": 6,
+  "end_report": 263,
+  "end_s": 2.2,
+  "duration_s": 0.125
+ },
+ {
+  "feeder": 1,
+  "start_report": 308,
+  "start_s": 2.566666666666667,
+  "channels": [
+   3
+  ],
+  "pre_reports": 6,
+  "end_report": 322,
+  "end_s": 2.691666666666667,
+  "duration_s": 0.125
+ },
+ {
+  "feeder": 2,
+  "start_report": 330,
+  "start_s": 2.75,
+  "channels": [
+   3
+  ],
+  "pre_reports": 6,
+  "end_report": 353,
+  "end_s": 2.95,
+  "duration_s": 0.20000000000000018
+ },
+ {
+  "feeder": 0,
+  "start_report": 457,
+  "start_s": 3.808333333333333,
+  "channels": [
+   3
+  ],
+  "pre_reports": 6,
+  "end_report": 475,
+  "end_s": 3.966666666666667,
+  "duration_s": 0.15833333333333366
+ },
+ {
+  "feeder": 1,
+  "start_report": 516,
+  "start_s": 4.3,
+  "channels": [
+   3
+  ],
+  "pre_reports": 6,
+  "end_report": 534,
+  "end_s": 4.458333333333333,
+  "duration_s": 0.15833333333333321
+ },
+ {
+  "feeder": 2,
+  "start_report": 1313,
+  "start_s": 10.941666666666666,
+  "channels": [
+   0,
+   1,
+   2
+  ],
+  "pre_reports": 6,
+  "end_report": 1328,
+  "end_s": 11.075,
+  "duration_s": 0.13333333333333286
+ },
+ {
+  "feeder": 0,
+  "start_report": 1439,
+  "start_s": 11.991666666666667,
+  "channels": [
+   2
+  ],
+  "pre_reports": 6,
+  "end_report": 1440,
+  "open_at_end": true
+ },
+ {
+  "feeder": 1,
+  "start_report": 1439,
+  "start_s": 11.991666666666667,
+  "channels": [
+   2
+  ],
+  "pre_reports": 6,
+  "end_report": 1440,
+  "open_at_end": true
+ },
+ {
+  "feeder": 2,
+  "start_report": 1439,
+  "start_s": 11.991666666666667,
+  "channels": [
+   0
+  ],
+  "pre_reports": 6,
+  "end_report": 1440,
+  "open_at_end": true
+ }
+]

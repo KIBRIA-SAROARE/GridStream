@@ -1,0 +1,9 @@
+{"feeder": 0, "start_report": 60, "start_s": 0.5, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 66, "end_s": 0.5583333333333333, "duration_s": 0.05833333333333335}
+{"feeder": 1, "start_report": 89, "start_s": 0.7416666666666667, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 93, "end_s": 0.7833333333333333, "duration_s": 0.04166666666666663}
+{"feeder": 1, "start_report": 330, "start_s": 2.75, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 336, "end_s": 2.808333333333333, "duration_s": 0.058333333333333126}
+{"feeder": 2, "start_report": 603, "start_s": 5.025, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 607, "end_s": 5.066666666666666, "duration_s": 0.041666666666666075}
+{"feeder": 2, "start_report": 844, "start_s": 7.033333333333333, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 850, "end_s": 7.091666666666667, "duration_s": 0.05833333333333357}
+{"feeder": 0, "start_report": 1019, "start_s": 8.491666666666667, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 1023, "end_s": 8.533333333333333, "duration_s": 0.041666666666666075}
+{"feeder": 0, "start_report": 1199, "start_s": 9.991666666666667, "channels": [1, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 1, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 2, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}

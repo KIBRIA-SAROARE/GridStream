@@ -1,0 +1,25 @@
+{
+ "records": [
+  7,
+  45,
+  55,
+  901,
+  907,
+  971
+ ],
+ "part1_set": [
+  45,
+  55,
+  677,
+  901,
+  907,
+  971
+ ],
+ "fixed": {
+  "kappa_h": 3.25,
+  "gap": 1.0,
+  "kappa_min_hi": 0.0,
+  "source": "Part 1 numbers.json fixed_margin_from_synth_oct (best constant on held-out synthetic, Delta=1, no floor)"
+ },
+ "seconds": 76.8552143573761
+}

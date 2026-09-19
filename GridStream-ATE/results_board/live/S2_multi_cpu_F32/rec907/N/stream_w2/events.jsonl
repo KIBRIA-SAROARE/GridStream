@@ -1,0 +1,15 @@
+{"feeder": 1, "start_report": 18, "start_s": 0.15, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 22, "end_s": 0.19166666666666668, "duration_s": 0.041666666666666685}
+{"feeder": 4, "start_report": 68, "start_s": 0.5666666666666667, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 74, "end_s": 0.625, "duration_s": 0.05833333333333335}
+{"feeder": 3, "start_report": 162, "start_s": 1.35, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 168, "end_s": 1.4083333333333334, "duration_s": 0.05833333333333335}
+{"feeder": 1, "start_report": 259, "start_s": 2.158333333333333, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 265, "end_s": 2.216666666666667, "duration_s": 0.05833333333333357}
+{"feeder": 2, "start_report": 726, "start_s": 6.05, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 730, "end_s": 6.091666666666667, "duration_s": 0.04166666666666696}
+{"feeder": 0, "start_report": 763, "start_s": 6.358333333333333, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 767, "end_s": 6.4, "duration_s": 0.04166666666666696}
+{"feeder": 2, "start_report": 967, "start_s": 8.058333333333334, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 973, "end_s": 8.116666666666667, "duration_s": 0.05833333333333357}
+{"feeder": 0, "start_report": 1004, "start_s": 8.366666666666667, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 1010, "end_s": 8.425, "duration_s": 0.05833333333333357}
+{"feeder": 4, "start_report": 1027, "start_s": 8.558333333333334, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 1031, "end_s": 8.6, "duration_s": 0.041666666666666075}
+{"feeder": 3, "start_report": 1121, "start_s": 9.341666666666667, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 1125, "end_s": 9.383333333333333, "duration_s": 0.041666666666666075}
+{"feeder": 0, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 1, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 2, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 3, "start_report": 1199, "start_s": 9.991666666666667, "channels": [1, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 4, "start_report": 1199, "start_s": 9.991666666666667, "channels": [1, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}

@@ -1,0 +1,578 @@
+[
+ {
+  "feeder": 1,
+  "start_report": 2,
+  "start_s": 0.01663958401039974,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 3,
+  "end_s": 0.033344166395840105,
+  "duration_s": 0.016704582385440366
+ },
+ {
+  "feeder": 1,
+  "start_report": 5,
+  "start_s": 0.04166395840103997,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 7,
+  "end_s": 0.06668833279168021,
+  "duration_s": 0.025024374390640237
+ },
+ {
+  "feeder": 12,
+  "start_report": 16,
+  "start_s": 0.1333116672083198,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 18,
+  "end_s": 0.15833604159896003,
+  "duration_s": 0.02502437439064023
+ },
+ {
+  "feeder": 12,
+  "start_report": 20,
+  "start_s": 0.1666558336041599,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 22,
+  "end_s": 0.19168020799480012,
+  "duration_s": 0.02502437439064023
+ },
+ {
+  "feeder": 10,
+  "start_report": 24,
+  "start_s": 0.2,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 25,
+  "end_s": 0.21663958401039973,
+  "duration_s": 0.01663958401039972
+ },
+ {
+  "feeder": 15,
+  "start_report": 30,
+  "start_s": 0.24998375040623985,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 32,
+  "end_s": 0.2750081247968801,
+  "duration_s": 0.02502437439064023
+ },
+ {
+  "feeder": 1,
+  "start_report": 33,
+  "start_s": 0.2750081247968801,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 34,
+  "end_s": 0.2916477088072798,
+  "duration_s": 0.01663958401039972
+ },
+ {
+  "feeder": 15,
+  "start_report": 34,
+  "start_s": 0.28332791680207997,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 36,
+  "end_s": 0.3083522911927202,
+  "duration_s": 0.025024374390640203
+ },
+ {
+  "feeder": 0,
+  "start_report": 38,
+  "start_s": 0.31667208319792006,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 40,
+  "end_s": 0.34169645758856027,
+  "duration_s": 0.025024374390640203
+ },
+ {
+  "feeder": 0,
+  "start_report": 42,
+  "start_s": 0.35001624959376015,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 43,
+  "end_s": 0.3666558336041599,
+  "duration_s": 0.01663958401039972
+ },
+ {
+  "feeder": 8,
+  "start_report": 41,
+  "start_s": 0.34169645758856027,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 43,
+  "end_s": 0.3666558336041599,
+  "duration_s": 0.02495937601559961
+ },
+ {
+  "feeder": 8,
+  "start_report": 45,
+  "start_s": 0.37497562560935976,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 46,
+  "end_s": 0.39168020799480013,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 6,
+  "start_report": 47,
+  "start_s": 0.39168020799480013,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 49,
+  "end_s": 0.41663958401039974,
+  "duration_s": 0.02495937601559961
+ },
+ {
+  "feeder": 12,
+  "start_report": 48,
+  "start_s": 0.4,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 49,
+  "end_s": 0.41663958401039974,
+  "duration_s": 0.01663958401039972
+ },
+ {
+  "feeder": 6,
+  "start_report": 51,
+  "start_s": 0.4250243743906402,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 52,
+  "end_s": 0.44166395840103995,
+  "duration_s": 0.01663958401039972
+ },
+ {
+  "feeder": 7,
+  "start_report": 55,
+  "start_s": 0.4583035424114397,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 57,
+  "end_s": 0.4833279168020799,
+  "duration_s": 0.025024374390640203
+ },
+ {
+  "feeder": 7,
+  "start_report": 59,
+  "start_s": 0.4916477088072798,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 60,
+  "end_s": 0.5083522911927202,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 15,
+  "start_report": 62,
+  "start_s": 0.51667208319792,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 63,
+  "end_s": 0.5333116672083198,
+  "duration_s": 0.016639584010399777
+ },
+ {
+  "feeder": 0,
+  "start_report": 69,
+  "start_s": 0.5749756256093598,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 70,
+  "end_s": 0.5916802079948001,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 8,
+  "start_report": 72,
+  "start_s": 0.6,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 73,
+  "end_s": 0.6166395840103998,
+  "duration_s": 0.016639584010399777
+ },
+ {
+  "feeder": 6,
+  "start_report": 78,
+  "start_s": 0.6499837504062398,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 79,
+  "end_s": 0.6666883327916802,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 9,
+  "start_report": 79,
+  "start_s": 0.6583035424114397,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 81,
+  "end_s": 0.6833279168020799,
+  "duration_s": 0.025024374390640203
+ },
+ {
+  "feeder": 9,
+  "start_report": 83,
+  "start_s": 0.6916477088072798,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 84,
+  "end_s": 0.7083522911927201,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 7,
+  "start_report": 86,
+  "start_s": 0.7166720831979201,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 87,
+  "end_s": 0.7333116672083198,
+  "duration_s": 0.016639584010399666
+ },
+ {
+  "feeder": 4,
+  "start_report": 102,
+  "start_s": 0.8499837504062399,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 104,
+  "end_s": 0.8750081247968801,
+  "duration_s": 0.025024374390640203
+ },
+ {
+  "feeder": 4,
+  "start_report": 106,
+  "start_s": 0.8833279168020799,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 107,
+  "end_s": 0.9000324991875203,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 9,
+  "start_report": 110,
+  "start_s": 0.91667208319792,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 111,
+  "end_s": 0.9333116672083198,
+  "duration_s": 0.016639584010399777
+ },
+ {
+  "feeder": 5,
+  "start_report": 111,
+  "start_s": 0.9249918752031199,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 113,
+  "end_s": 0.9500162495937602,
+  "duration_s": 0.025024374390640314
+ },
+ {
+  "feeder": 5,
+  "start_report": 115,
+  "start_s": 0.95833604159896,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 116,
+  "end_s": 0.9749756256093598,
+  "duration_s": 0.016639584010399777
+ },
+ {
+  "feeder": 4,
+  "start_report": 133,
+  "start_s": 1.1083522911927202,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 134,
+  "end_s": 1.1249918752031198,
+  "duration_s": 0.016639584010399666
+ },
+ {
+  "feeder": 5,
+  "start_report": 142,
+  "start_s": 1.1833604159896003,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 143,
+  "end_s": 1.2,
+  "duration_s": 0.016639584010399666
+ },
+ {
+  "feeder": 13,
+  "start_report": 158,
+  "start_s": 1.31667208319792,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 160,
+  "end_s": 1.3416964575885604,
+  "duration_s": 0.025024374390640425
+ },
+ {
+  "feeder": 3,
+  "start_report": 160,
+  "start_s": 1.3333116672083198,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 162,
+  "end_s": 1.35833604159896,
+  "duration_s": 0.025024374390640203
+ },
+ {
+  "feeder": 13,
+  "start_report": 162,
+  "start_s": 1.3500162495937602,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 163,
+  "end_s": 1.3666558336041599,
+  "duration_s": 0.016639584010399666
+ },
+ {
+  "feeder": 3,
+  "start_report": 164,
+  "start_s": 1.3666558336041599,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 165,
+  "end_s": 1.3833604159896002,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 14,
+  "start_report": 182,
+  "start_s": 1.5166720831979201,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 184,
+  "end_s": 1.5416964575885603,
+  "duration_s": 0.025024374390640203
+ },
+ {
+  "feeder": 14,
+  "start_report": 186,
+  "start_s": 1.5500162495937602,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 187,
+  "end_s": 1.5666558336041598,
+  "duration_s": 0.016639584010399666
+ },
+ {
+  "feeder": 13,
+  "start_report": 189,
+  "start_s": 1.5749756256093597,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 190,
+  "end_s": 1.5916802079948,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 2,
+  "start_report": 190,
+  "start_s": 1.5833604159896002,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 192,
+  "end_s": 1.6083197920052,
+  "duration_s": 0.02495937601559972
+ },
+ {
+  "feeder": 3,
+  "start_report": 191,
+  "start_s": 1.5916802079948,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 192,
+  "end_s": 1.6083197920052,
+  "duration_s": 0.016639584010399888
+ },
+ {
+  "feeder": 2,
+  "start_report": 194,
+  "start_s": 1.6166395840103998,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 195,
+  "end_s": 1.6333441663958401,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 11,
+  "start_report": 193,
+  "start_s": 1.6083197920052,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 195,
+  "end_s": 1.6333441663958401,
+  "duration_s": 0.025024374390640203
+ },
+ {
+  "feeder": 11,
+  "start_report": 197,
+  "start_s": 1.64166395840104,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 198,
+  "end_s": 1.6583035424114396,
+  "duration_s": 0.016639584010399666
+ },
+ {
+  "feeder": 14,
+  "start_report": 213,
+  "start_s": 1.7749756256093598,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 214,
+  "end_s": 1.7916802079948002,
+  "duration_s": 0.01670458238544037
+ },
+ {
+  "feeder": 2,
+  "start_report": 221,
+  "start_s": 1.84166395840104,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 222,
+  "end_s": 1.8583035424114398,
+  "duration_s": 0.016639584010399888
+ },
+ {
+  "feeder": 11,
+  "start_report": 224,
+  "start_s": 1.8666883327916801,
+  "channels": [
+   2
+  ],
+  "pre_reports": 0,
+  "end_report": 225,
+  "end_s": 1.88332791680208,
+  "duration_s": 0.016639584010399888
+ },
+ {
+  "feeder": 10,
+  "start_report": 232,
+  "start_s": 1.9333116672083197,
+  "channels": [
+   1
+  ],
+  "pre_reports": 0,
+  "end_report": 234,
+  "end_s": 1.9583360415989601,
+  "duration_s": 0.025024374390640425
+ },
+ {
+  "feeder": 10,
+  "start_report": 236,
+  "start_s": 1.96665583360416,
+  "channels": [
+   0
+  ],
+  "pre_reports": 0,
+  "end_report": 237,
+  "end_s": 1.9833604159896003,
+  "duration_s": 0.01670458238544037
+ }
+]

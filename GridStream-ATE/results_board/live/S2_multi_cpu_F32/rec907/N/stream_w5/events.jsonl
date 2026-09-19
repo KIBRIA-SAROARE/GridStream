@@ -1,0 +1,15 @@
+{"feeder": 0, "start_report": 368, "start_s": 3.066666666666667, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 372, "end_s": 3.1083333333333334, "duration_s": 0.04166666666666652}
+{"feeder": 0, "start_report": 609, "start_s": 5.075, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 615, "end_s": 5.133333333333334, "duration_s": 0.05833333333333357}
+{"feeder": 2, "start_report": 757, "start_s": 6.308333333333334, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 761, "end_s": 6.35, "duration_s": 0.041666666666666075}
+{"feeder": 1, "start_report": 778, "start_s": 6.483333333333333, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 782, "end_s": 6.525, "duration_s": 0.04166666666666696}
+{"feeder": 3, "start_report": 804, "start_s": 6.7, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 808, "end_s": 6.741666666666666, "duration_s": 0.041666666666666075}
+{"feeder": 4, "start_report": 916, "start_s": 7.633333333333334, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 920, "end_s": 7.675, "duration_s": 0.041666666666666075}
+{"feeder": 2, "start_report": 998, "start_s": 8.316666666666666, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 1004, "end_s": 8.375, "duration_s": 0.05833333333333357}
+{"feeder": 1, "start_report": 1019, "start_s": 8.491666666666667, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 1025, "end_s": 8.55, "duration_s": 0.05833333333333357}
+{"feeder": 3, "start_report": 1045, "start_s": 8.708333333333334, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 1051, "end_s": 8.766666666666667, "duration_s": 0.05833333333333357}
+{"feeder": 4, "start_report": 1157, "start_s": 9.641666666666667, "channels": [1, 2, 4, 5], "pre_reports": 0, "end_report": 1163, "end_s": 9.7, "duration_s": 0.058333333333331794}
+{"feeder": 0, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 1, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 2, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 3, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 1, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}
+{"feeder": 4, "start_report": 1199, "start_s": 9.991666666666667, "channels": [1, 2], "pre_reports": 0, "end_report": 1200, "open_at_end": true}

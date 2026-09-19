@@ -1,0 +1,200 @@
+[
+ {
+  "feeder": 4,
+  "start_report": 12,
+  "start_s": 0.0999739989599584,
+  "channels": [
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 24,
+  "end_s": 0.20826833073322934,
+  "duration_s": 0.10829433177327094
+ },
+ {
+  "feeder": 0,
+  "start_report": 18,
+  "start_s": 0.1500260010400416,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 1,
+  "start_report": 12,
+  "start_s": 0.0999739989599584,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 2,
+  "start_report": 7,
+  "start_s": 0.05837233489339574,
+  "channels": [
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 3,
+  "start_report": 13,
+  "start_s": 0.10829433177327093,
+  "channels": [
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 4,
+  "start_report": 25,
+  "start_s": 0.20826833073322934,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 0,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 5,
+  "start_report": 8,
+  "start_s": 0.06669266770670827,
+  "channels": [
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 6,
+  "start_report": 19,
+  "start_s": 0.15834633385335414,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 7,
+  "start_report": 20,
+  "start_s": 0.16666666666666666,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 8,
+  "start_report": 18,
+  "start_s": 0.1500260010400416,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 9,
+  "start_report": 8,
+  "start_s": 0.06669266770670827,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 10,
+  "start_report": 11,
+  "start_s": 0.09165366614664587,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 11,
+  "start_report": 7,
+  "start_s": 0.05837233489339574,
+  "channels": [
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 12,
+  "start_report": 14,
+  "start_s": 0.11661466458658347,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 13,
+  "start_report": 13,
+  "start_s": 0.10829433177327093,
+  "channels": [
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 14,
+  "start_report": 16,
+  "start_s": 0.13338533541341654,
+  "channels": [
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ },
+ {
+  "feeder": 15,
+  "start_report": 16,
+  "start_s": 0.13338533541341654,
+  "channels": [
+   1,
+   4
+  ],
+  "pre_reports": 6,
+  "end_report": 27,
+  "open_at_end": true
+ }
+]

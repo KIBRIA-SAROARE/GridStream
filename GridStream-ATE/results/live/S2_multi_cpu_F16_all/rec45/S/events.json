@@ -1,0 +1,36 @@
+[
+ {
+  "feeder": 0,
+  "start_report": 21,
+  "start_s": 0.17497562560935975,
+  "channels": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "pre_reports": 6,
+  "end_report": 39,
+  "end_s": 0.3333116672083198,
+  "duration_s": 0.15833604159896003
+ },
+ {
+  "feeder": 1,
+  "start_report": 30,
+  "start_s": 0.24998375040623985,
+  "channels": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "pre_reports": 6,
+  "end_report": 48,
+  "end_s": 0.40831979200519986,
+  "duration_s": 0.15833604159896
+ }
+]

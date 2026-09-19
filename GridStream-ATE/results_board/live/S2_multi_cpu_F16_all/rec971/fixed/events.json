@@ -1,0 +1,44 @@
+[
+ {
+  "feeder": 2,
+  "start_report": 10,
+  "start_s": 0.08335,
+  "channels": [
+   3,
+   4,
+   5
+  ],
+  "pre_reports": 0,
+  "end_report": 15,
+  "end_s": 0.13335,
+  "duration_s": 0.05
+ },
+ {
+  "feeder": 0,
+  "start_report": 13,
+  "start_s": 0.10835,
+  "channels": [
+   3,
+   4,
+   5
+  ],
+  "pre_reports": 0,
+  "end_report": 18,
+  "end_s": 0.15835,
+  "duration_s": 0.04999999999999999
+ },
+ {
+  "feeder": 1,
+  "start_report": 14,
+  "start_s": 0.11665,
+  "channels": [
+   3,
+   4,
+   5
+  ],
+  "pre_reports": 0,
+  "end_report": 19,
+  "end_s": 0.16665,
+  "duration_s": 0.04999999999999999
+ }
+]

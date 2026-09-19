@@ -1,0 +1,865 @@
+tp,fp,fn,precision,recall,f1,n_event_windows,n_caught,event_recall,false_alarm_runs,latency_reports,latency_ms,duty_cycle,bandwidth_reduction,n_reports,has_events,rid,ch,method,variant,n_asserted
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,Fixed margin,+both (recommendation 1),0
+3,4,0,0.42857142857142855,1.0,0.6,1,1,1.0,0,0.0,0.0,0.3684210526315789,2.7142857142857144,19,True,7,Voltage.Vb,Fixed margin,baseline,9
+3,4,0,0.42857142857142855,1.0,0.6,1,1,1.0,0,0.0,0.0,0.3684210526315789,2.7142857142857144,19,True,7,Voltage.Vb,Fixed margin,+dead-release only,7
+3,4,0,0.42857142857142855,1.0,0.6,1,1,1.0,0,0.0,0.0,0.3684210526315789,2.7142857142857144,19,True,7,Voltage.Vb,Fixed margin,+latch-timeout only,9
+3,4,0,0.42857142857142855,1.0,0.6,1,1,1.0,0,0.0,0.0,0.3684210526315789,2.7142857142857144,19,True,7,Voltage.Vb,Fixed margin,+both (recommendation 1),7
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,Fixed margin,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,Fixed margin,+both (recommendation 1),0
+6,1,3,0.8571428571428571,0.6666666666666666,0.75,2,1,0.5,0,0.0,0.0,0.3684210526315789,2.7142857142857144,19,True,7,Current.Ib,Fixed margin,baseline,9
+6,1,3,0.8571428571428571,0.6666666666666666,0.75,2,1,0.5,0,0.0,0.0,0.3684210526315789,2.7142857142857144,19,True,7,Current.Ib,Fixed margin,+dead-release only,7
+6,1,3,0.8571428571428571,0.6666666666666666,0.75,2,1,0.5,0,0.0,0.0,0.3684210526315789,2.7142857142857144,19,True,7,Current.Ib,Fixed margin,+latch-timeout only,9
+6,1,3,0.8571428571428571,0.6666666666666666,0.75,2,1,0.5,0,0.0,0.0,0.3684210526315789,2.7142857142857144,19,True,7,Current.Ib,Fixed margin,+both (recommendation 1),7
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,Fixed margin,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,Fixed margin,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,Fixed margin,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,Fixed margin,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,Fixed margin,+both (recommendation 1),5
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,Fixed margin,baseline,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,Fixed margin,+dead-release only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,Fixed margin,+latch-timeout only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,Fixed margin,+both (recommendation 1),4
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,Fixed margin,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,Fixed margin,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,Fixed margin,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,Fixed margin,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,Fixed margin,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,Fixed margin,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,Fixed margin,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,Fixed margin,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,Fixed margin,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,Fixed margin,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,Fixed margin,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,Fixed margin,+both (recommendation 1),5
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,Fixed margin,baseline,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,Fixed margin,+dead-release only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,Fixed margin,+latch-timeout only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,Fixed margin,+both (recommendation 1),7
+156,25,0,0.861878453038674,1.0,0.9258160237388724,2,2,1.0,0,0.0,0.0,0.7735042735042735,1.292817679558011,234,True,55,Voltage.Va,Fixed margin,baseline,182
+156,25,0,0.861878453038674,1.0,0.9258160237388724,2,2,1.0,0,0.0,0.0,0.7735042735042735,1.292817679558011,234,True,55,Voltage.Va,Fixed margin,+dead-release only,181
+156,25,0,0.861878453038674,1.0,0.9258160237388724,2,2,1.0,0,0.0,0.0,0.7735042735042735,1.292817679558011,234,True,55,Voltage.Va,Fixed margin,+latch-timeout only,182
+156,25,0,0.861878453038674,1.0,0.9258160237388724,2,2,1.0,0,0.0,0.0,0.7735042735042735,1.292817679558011,234,True,55,Voltage.Va,Fixed margin,+both (recommendation 1),181
+72,90,0,0.4444444444444444,1.0,0.6153846153846153,2,2,1.0,0,0.0,0.0,0.6923076923076923,1.4444444444444444,234,True,55,Voltage.Vb,Fixed margin,baseline,162
+72,90,0,0.4444444444444444,1.0,0.6153846153846153,2,2,1.0,0,0.0,0.0,0.6923076923076923,1.4444444444444444,234,True,55,Voltage.Vb,Fixed margin,+dead-release only,162
+72,90,0,0.4444444444444444,1.0,0.6153846153846153,2,2,1.0,0,0.0,0.0,0.6923076923076923,1.4444444444444444,234,True,55,Voltage.Vb,Fixed margin,+latch-timeout only,162
+72,90,0,0.4444444444444444,1.0,0.6153846153846153,2,2,1.0,0,0.0,0.0,0.6923076923076923,1.4444444444444444,234,True,55,Voltage.Vb,Fixed margin,+both (recommendation 1),162
+46,48,0,0.48936170212765956,1.0,0.6571428571428571,3,3,1.0,0,0.0,0.0,0.4017094017094017,2.4893617021276593,234,True,55,Voltage.Vc,Fixed margin,baseline,94
+46,48,0,0.48936170212765956,1.0,0.6571428571428571,3,3,1.0,0,0.0,0.0,0.4017094017094017,2.4893617021276593,234,True,55,Voltage.Vc,Fixed margin,+dead-release only,94
+46,48,0,0.48936170212765956,1.0,0.6571428571428571,3,3,1.0,0,0.0,0.0,0.4017094017094017,2.4893617021276593,234,True,55,Voltage.Vc,Fixed margin,+latch-timeout only,94
+46,48,0,0.48936170212765956,1.0,0.6571428571428571,3,3,1.0,0,0.0,0.0,0.4017094017094017,2.4893617021276593,234,True,55,Voltage.Vc,Fixed margin,+both (recommendation 1),94
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,Fixed margin,baseline,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,Fixed margin,+dead-release only,180
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,Fixed margin,+latch-timeout only,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,Fixed margin,+both (recommendation 1),180
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,Fixed margin,baseline,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,Fixed margin,+dead-release only,176
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,Fixed margin,+latch-timeout only,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,Fixed margin,+both (recommendation 1),176
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,Fixed margin,baseline,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,Fixed margin,+dead-release only,179
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,Fixed margin,+latch-timeout only,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,Fixed margin,+both (recommendation 1),179
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,Fixed margin,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,Fixed margin,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,Fixed margin,+both (recommendation 1),0
+21,12,5,0.6363636363636364,0.8076923076923077,0.7118644067796609,3,2,0.6666666666666666,1,0.5,4.166666666666667,0.02301255230125523,43.45454545454545,1434,True,901,Current.Ia,Fixed margin,baseline,33
+21,12,5,0.6363636363636364,0.8076923076923077,0.7118644067796609,3,2,0.6666666666666666,1,0.5,4.166666666666667,0.02301255230125523,43.45454545454545,1434,True,901,Current.Ia,Fixed margin,+dead-release only,33
+21,12,5,0.6363636363636364,0.8076923076923077,0.7118644067796609,3,2,0.6666666666666666,1,0.5,4.166666666666667,0.02301255230125523,43.45454545454545,1434,True,901,Current.Ia,Fixed margin,+latch-timeout only,33
+21,12,5,0.6363636363636364,0.8076923076923077,0.7118644067796609,3,2,0.6666666666666666,1,0.5,4.166666666666667,0.02301255230125523,43.45454545454545,1434,True,901,Current.Ia,Fixed margin,+both (recommendation 1),33
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,Fixed margin,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,Fixed margin,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,Fixed margin,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,Fixed margin,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,Fixed margin,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,Fixed margin,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,Fixed margin,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,Fixed margin,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,Fixed margin,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,Fixed margin,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,Fixed margin,+both (recommendation 1),5
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,Fixed margin,+both (recommendation 1),0
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,Fixed margin,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,Fixed margin,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,Fixed margin,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,Fixed margin,+both (recommendation 1),6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,Fixed margin,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,Fixed margin,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,Fixed margin,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,Fixed margin,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,Fixed margin,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,Fixed margin,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,Fixed margin,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,Fixed margin,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,Fixed margin,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,Fixed margin,+both (recommendation 1),0
+4,1,0,0.8,1.0,0.888888888888889,1,1,1.0,0,0.0,0.0,0.21739130434782608,4.6000000000000005,23,True,971,Current.Ia,Fixed margin,baseline,5
+4,1,0,0.8,1.0,0.888888888888889,1,1,1.0,0,0.0,0.0,0.21739130434782608,4.6000000000000005,23,True,971,Current.Ia,Fixed margin,+dead-release only,5
+4,1,0,0.8,1.0,0.888888888888889,1,1,1.0,0,0.0,0.0,0.21739130434782608,4.6000000000000005,23,True,971,Current.Ia,Fixed margin,+latch-timeout only,5
+4,1,0,0.8,1.0,0.888888888888889,1,1,1.0,0,0.0,0.0,0.21739130434782608,4.6000000000000005,23,True,971,Current.Ia,Fixed margin,+both (recommendation 1),5
+2,1,1,0.6666666666666666,0.6666666666666666,0.6666666666666666,1,1,1.0,0,1.0,8.333333333333334,0.13636363636363635,7.333333333333334,22,True,971,Current.Ib,Fixed margin,baseline,4
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,Fixed margin,+dead-release only,2
+2,1,1,0.6666666666666666,0.6666666666666666,0.6666666666666666,1,1,1.0,0,1.0,8.333333333333334,0.13636363636363635,7.333333333333334,22,True,971,Current.Ib,Fixed margin,+latch-timeout only,4
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,Fixed margin,+both (recommendation 1),2
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,Fixed margin,baseline,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,Fixed margin,+dead-release only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,Fixed margin,+latch-timeout only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,Fixed margin,+both (recommendation 1),4
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-Q,+both (recommendation 1),0
+3,3,0,0.5,1.0,0.6666666666666666,1,1,1.0,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Voltage.Vb,ATE-Q,baseline,6
+3,3,0,0.5,1.0,0.6666666666666666,1,1,1.0,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Voltage.Vb,ATE-Q,+dead-release only,6
+3,3,0,0.5,1.0,0.6666666666666666,1,1,1.0,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Voltage.Vb,ATE-Q,+latch-timeout only,6
+3,3,0,0.5,1.0,0.6666666666666666,1,1,1.0,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Voltage.Vb,ATE-Q,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-Q,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-Q,+both (recommendation 1),0
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-Q,baseline,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-Q,+dead-release only,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-Q,+latch-timeout only,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-Q,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-Q,+both (recommendation 1),0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-Q,baseline,0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-Q,+dead-release only,0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-Q,+latch-timeout only,0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-Q,+both (recommendation 1),0
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-Q,baseline,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-Q,+dead-release only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-Q,+latch-timeout only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-Q,+both (recommendation 1),4
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-Q,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-Q,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-Q,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-Q,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-Q,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-Q,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-Q,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-Q,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-Q,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-Q,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-Q,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-Q,+both (recommendation 1),5
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-Q,baseline,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-Q,+dead-release only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-Q,+latch-timeout only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-Q,+both (recommendation 1),7
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-Q,baseline,181
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-Q,+dead-release only,180
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-Q,+latch-timeout only,181
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-Q,+both (recommendation 1),180
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-Q,baseline,91
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-Q,+dead-release only,91
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-Q,+latch-timeout only,91
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-Q,+both (recommendation 1),91
+41,19,5,0.6833333333333333,0.8913043478260869,0.7735849056603774,3,3,1.0,0,1.3333333333333333,11.111111111111109,0.2564102564102564,3.9000000000000004,234,True,55,Voltage.Vc,ATE-Q,baseline,60
+41,19,5,0.6833333333333333,0.8913043478260869,0.7735849056603774,3,3,1.0,0,1.3333333333333333,11.111111111111109,0.2564102564102564,3.9000000000000004,234,True,55,Voltage.Vc,ATE-Q,+dead-release only,60
+41,19,5,0.6833333333333333,0.8913043478260869,0.7735849056603774,3,3,1.0,0,1.3333333333333333,11.111111111111109,0.2564102564102564,3.9000000000000004,234,True,55,Voltage.Vc,ATE-Q,+latch-timeout only,60
+41,19,5,0.6833333333333333,0.8913043478260869,0.7735849056603774,3,3,1.0,0,1.3333333333333333,11.111111111111109,0.2564102564102564,3.9000000000000004,234,True,55,Voltage.Vc,ATE-Q,+both (recommendation 1),60
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-Q,baseline,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-Q,+dead-release only,180
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-Q,+latch-timeout only,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-Q,+both (recommendation 1),180
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-Q,baseline,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-Q,+dead-release only,176
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-Q,+latch-timeout only,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-Q,+both (recommendation 1),176
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-Q,baseline,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-Q,+dead-release only,179
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-Q,+latch-timeout only,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-Q,+both (recommendation 1),179
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-Q,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-Q,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-Q,+both (recommendation 1),0
+10,0,16,1.0,0.38461538461538464,0.5555555555555556,3,2,0.6666666666666666,0,1.0,8.333333333333334,0.00697350069735007,143.4,1434,True,901,Current.Ia,ATE-Q,baseline,10
+10,0,16,1.0,0.38461538461538464,0.5555555555555556,3,2,0.6666666666666666,0,1.0,8.333333333333334,0.00697350069735007,143.4,1434,True,901,Current.Ia,ATE-Q,+dead-release only,10
+10,0,16,1.0,0.38461538461538464,0.5555555555555556,3,2,0.6666666666666666,0,1.0,8.333333333333334,0.00697350069735007,143.4,1434,True,901,Current.Ia,ATE-Q,+latch-timeout only,10
+10,0,16,1.0,0.38461538461538464,0.5555555555555556,3,2,0.6666666666666666,0,1.0,8.333333333333334,0.00697350069735007,143.4,1434,True,901,Current.Ia,ATE-Q,+both (recommendation 1),10
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-Q,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-Q,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-Q,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-Q,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-Q,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-Q,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-Q,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-Q,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-Q,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-Q,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-Q,+both (recommendation 1),5
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-Q,+both (recommendation 1),0
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-Q,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-Q,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-Q,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-Q,+both (recommendation 1),6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-Q,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-Q,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-Q,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-Q,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-Q,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-Q,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-Q,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-Q,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-Q,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-Q,+both (recommendation 1),0
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-Q,baseline,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-Q,+dead-release only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-Q,+latch-timeout only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-Q,+both (recommendation 1),4
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-Q,baseline,3
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-Q,+dead-release only,2
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-Q,+latch-timeout only,3
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-Q,+both (recommendation 1),2
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-Q,baseline,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-Q,+dead-release only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-Q,+latch-timeout only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-Q,+both (recommendation 1),4
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-S,+both (recommendation 1),0
+3,3,0,0.5,1.0,0.6666666666666666,1,1,1.0,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Voltage.Vb,ATE-S,baseline,6
+3,3,0,0.5,1.0,0.6666666666666666,1,1,1.0,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Voltage.Vb,ATE-S,+dead-release only,6
+3,3,0,0.5,1.0,0.6666666666666666,1,1,1.0,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Voltage.Vb,ATE-S,+latch-timeout only,6
+3,3,0,0.5,1.0,0.6666666666666666,1,1,1.0,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Voltage.Vb,ATE-S,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-S,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-S,+both (recommendation 1),0
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-S,baseline,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-S,+dead-release only,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-S,+latch-timeout only,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-S,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-S,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,ATE-S,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,ATE-S,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,ATE-S,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,ATE-S,+both (recommendation 1),5
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-S,baseline,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-S,+dead-release only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-S,+latch-timeout only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-S,+both (recommendation 1),4
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-S,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-S,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-S,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-S,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-S,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-S,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-S,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-S,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-S,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-S,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-S,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-S,+both (recommendation 1),5
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-S,baseline,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-S,+dead-release only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-S,+latch-timeout only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-S,+both (recommendation 1),7
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-S,baseline,181
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-S,+dead-release only,180
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-S,+latch-timeout only,181
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-S,+both (recommendation 1),180
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-S,baseline,91
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-S,+dead-release only,91
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-S,+latch-timeout only,91
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-S,+both (recommendation 1),91
+45,25,1,0.6428571428571429,0.9782608695652174,0.7758620689655172,3,3,1.0,0,0.0,0.0,0.29914529914529914,3.342857142857143,234,True,55,Voltage.Vc,ATE-S,baseline,70
+45,25,1,0.6428571428571429,0.9782608695652174,0.7758620689655172,3,3,1.0,0,0.0,0.0,0.29914529914529914,3.342857142857143,234,True,55,Voltage.Vc,ATE-S,+dead-release only,70
+45,25,1,0.6428571428571429,0.9782608695652174,0.7758620689655172,3,3,1.0,0,0.0,0.0,0.29914529914529914,3.342857142857143,234,True,55,Voltage.Vc,ATE-S,+latch-timeout only,70
+45,25,1,0.6428571428571429,0.9782608695652174,0.7758620689655172,3,3,1.0,0,0.0,0.0,0.29914529914529914,3.342857142857143,234,True,55,Voltage.Vc,ATE-S,+both (recommendation 1),70
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-S,baseline,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-S,+dead-release only,180
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-S,+latch-timeout only,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-S,+both (recommendation 1),180
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-S,baseline,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-S,+dead-release only,176
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-S,+latch-timeout only,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-S,+both (recommendation 1),176
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-S,baseline,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-S,+dead-release only,179
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-S,+latch-timeout only,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-S,+both (recommendation 1),179
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-S,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-S,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-S,+both (recommendation 1),0
+17,0,9,1.0,0.6538461538461539,0.7906976744186047,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.011854951185495118,84.3529411764706,1434,True,901,Current.Ia,ATE-S,baseline,17
+17,0,9,1.0,0.6538461538461539,0.7906976744186047,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.011854951185495118,84.3529411764706,1434,True,901,Current.Ia,ATE-S,+dead-release only,17
+17,0,9,1.0,0.6538461538461539,0.7906976744186047,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.011854951185495118,84.3529411764706,1434,True,901,Current.Ia,ATE-S,+latch-timeout only,17
+17,0,9,1.0,0.6538461538461539,0.7906976744186047,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.011854951185495118,84.3529411764706,1434,True,901,Current.Ia,ATE-S,+both (recommendation 1),17
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-S,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-S,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-S,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-S,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-S,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-S,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-S,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-S,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-S,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-S,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-S,+both (recommendation 1),5
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-S,+both (recommendation 1),0
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-S,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-S,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-S,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-S,+both (recommendation 1),6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-S,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-S,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-S,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-S,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-S,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-S,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-S,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-S,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-S,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-S,+both (recommendation 1),0
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-S,baseline,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-S,+dead-release only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-S,+latch-timeout only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-S,+both (recommendation 1),4
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-S,baseline,3
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-S,+dead-release only,2
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-S,+latch-timeout only,3
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-S,+both (recommendation 1),2
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-S,baseline,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-S,+dead-release only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-S,+latch-timeout only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-S,+both (recommendation 1),4
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-M,+both (recommendation 1),0
+3,2,0,0.6,1.0,0.7499999999999999,1,1,1.0,0,0.0,0.0,0.2631578947368421,3.8000000000000003,19,True,7,Voltage.Vb,ATE-M,baseline,5
+3,2,0,0.6,1.0,0.7499999999999999,1,1,1.0,0,0.0,0.0,0.2631578947368421,3.8000000000000003,19,True,7,Voltage.Vb,ATE-M,+dead-release only,5
+3,2,0,0.6,1.0,0.7499999999999999,1,1,1.0,0,0.0,0.0,0.2631578947368421,3.8000000000000003,19,True,7,Voltage.Vb,ATE-M,+latch-timeout only,5
+3,2,0,0.6,1.0,0.7499999999999999,1,1,1.0,0,0.0,0.0,0.2631578947368421,3.8000000000000003,19,True,7,Voltage.Vb,ATE-M,+both (recommendation 1),5
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-M,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-M,+both (recommendation 1),0
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-M,baseline,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-M,+dead-release only,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-M,+latch-timeout only,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-M,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-M,+both (recommendation 1),0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-M,baseline,0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-M,+dead-release only,0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-M,+latch-timeout only,0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-M,+both (recommendation 1),0
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-M,baseline,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-M,+dead-release only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-M,+latch-timeout only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-M,+both (recommendation 1),4
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-M,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-M,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-M,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-M,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-M,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-M,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-M,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-M,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-M,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-M,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-M,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-M,+both (recommendation 1),5
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-M,baseline,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-M,+dead-release only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-M,+latch-timeout only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-M,+both (recommendation 1),7
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-M,baseline,181
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-M,+dead-release only,180
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-M,+latch-timeout only,181
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-M,+both (recommendation 1),180
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-M,baseline,91
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-M,+dead-release only,91
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-M,+latch-timeout only,91
+72,19,0,0.7912087912087912,1.0,0.8834355828220859,2,2,1.0,0,0.0,0.0,0.3888888888888889,2.571428571428571,234,True,55,Voltage.Vb,ATE-M,+both (recommendation 1),91
+41,25,5,0.6212121212121212,0.8913043478260869,0.7321428571428572,3,3,1.0,0,1.3333333333333333,11.111111111111109,0.28205128205128205,3.5454545454545454,234,True,55,Voltage.Vc,ATE-M,baseline,66
+41,25,5,0.6212121212121212,0.8913043478260869,0.7321428571428572,3,3,1.0,0,1.3333333333333333,11.111111111111109,0.28205128205128205,3.5454545454545454,234,True,55,Voltage.Vc,ATE-M,+dead-release only,66
+41,25,5,0.6212121212121212,0.8913043478260869,0.7321428571428572,3,3,1.0,0,1.3333333333333333,11.111111111111109,0.28205128205128205,3.5454545454545454,234,True,55,Voltage.Vc,ATE-M,+latch-timeout only,66
+41,25,5,0.6212121212121212,0.8913043478260869,0.7321428571428572,3,3,1.0,0,1.3333333333333333,11.111111111111109,0.28205128205128205,3.5454545454545454,234,True,55,Voltage.Vc,ATE-M,+both (recommendation 1),66
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-M,baseline,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-M,+dead-release only,180
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-M,+latch-timeout only,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-M,+both (recommendation 1),180
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-M,baseline,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-M,+dead-release only,176
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-M,+latch-timeout only,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-M,+both (recommendation 1),176
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-M,baseline,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-M,+dead-release only,179
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-M,+latch-timeout only,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-M,+both (recommendation 1),179
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-M,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-M,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-M,+both (recommendation 1),0
+17,0,9,1.0,0.6538461538461539,0.7906976744186047,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.011854951185495118,84.3529411764706,1434,True,901,Current.Ia,ATE-M,baseline,17
+17,0,9,1.0,0.6538461538461539,0.7906976744186047,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.011854951185495118,84.3529411764706,1434,True,901,Current.Ia,ATE-M,+dead-release only,17
+17,0,9,1.0,0.6538461538461539,0.7906976744186047,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.011854951185495118,84.3529411764706,1434,True,901,Current.Ia,ATE-M,+latch-timeout only,17
+17,0,9,1.0,0.6538461538461539,0.7906976744186047,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.011854951185495118,84.3529411764706,1434,True,901,Current.Ia,ATE-M,+both (recommendation 1),17
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-M,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-M,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-M,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-M,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-M,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-M,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-M,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-M,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-M,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-M,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-M,+both (recommendation 1),5
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-M,+both (recommendation 1),0
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-M,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-M,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-M,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-M,+both (recommendation 1),6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-M,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-M,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-M,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-M,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-M,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-M,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-M,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-M,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-M,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-M,+both (recommendation 1),0
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-M,baseline,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-M,+dead-release only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-M,+latch-timeout only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-M,+both (recommendation 1),4
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-M,baseline,3
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-M,+dead-release only,2
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-M,+latch-timeout only,3
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-M,+both (recommendation 1),2
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-M,baseline,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-M,+dead-release only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-M,+latch-timeout only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-M,+both (recommendation 1),4
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-N,+both (recommendation 1),0
+3,2,0,0.6,1.0,0.7499999999999999,1,1,1.0,0,0.0,0.0,0.2631578947368421,3.8000000000000003,19,True,7,Voltage.Vb,ATE-N,baseline,5
+3,2,0,0.6,1.0,0.7499999999999999,1,1,1.0,0,0.0,0.0,0.2631578947368421,3.8000000000000003,19,True,7,Voltage.Vb,ATE-N,+dead-release only,5
+3,2,0,0.6,1.0,0.7499999999999999,1,1,1.0,0,0.0,0.0,0.2631578947368421,3.8000000000000003,19,True,7,Voltage.Vb,ATE-N,+latch-timeout only,5
+3,2,0,0.6,1.0,0.7499999999999999,1,1,1.0,0,0.0,0.0,0.2631578947368421,3.8000000000000003,19,True,7,Voltage.Vb,ATE-N,+both (recommendation 1),5
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-N,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-N,+both (recommendation 1),0
+4,0,5,1.0,0.4444444444444444,0.6153846153846153,2,1,0.5,0,0.0,0.0,0.21052631578947367,4.75,19,True,7,Current.Ib,ATE-N,baseline,4
+4,0,5,1.0,0.4444444444444444,0.6153846153846153,2,1,0.5,0,0.0,0.0,0.21052631578947367,4.75,19,True,7,Current.Ib,ATE-N,+dead-release only,4
+4,0,5,1.0,0.4444444444444444,0.6153846153846153,2,1,0.5,0,0.0,0.0,0.21052631578947367,4.75,19,True,7,Current.Ib,ATE-N,+latch-timeout only,4
+4,0,5,1.0,0.4444444444444444,0.6153846153846153,2,1,0.5,0,0.0,0.0,0.21052631578947367,4.75,19,True,7,Current.Ib,ATE-N,+both (recommendation 1),4
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-N,+both (recommendation 1),0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-N,baseline,0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-N,+dead-release only,0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-N,+latch-timeout only,0
+0,0,5,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Va,ATE-N,+both (recommendation 1),0
+0,0,3,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Vb,ATE-N,baseline,0
+0,0,3,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Vb,ATE-N,+dead-release only,0
+0,0,3,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Vb,ATE-N,+latch-timeout only,0
+0,0,3,0.0,0.0,0.0,1,0,0.0,0,,,0.0,inf,234,True,45,Voltage.Vb,ATE-N,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-N,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-N,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-N,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-N,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-N,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-N,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-N,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-N,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-N,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-N,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-N,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-N,+both (recommendation 1),5
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-N,baseline,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-N,+dead-release only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-N,+latch-timeout only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-N,+both (recommendation 1),7
+154,25,2,0.8603351955307262,0.9871794871794872,0.9194029850746268,2,2,1.0,0,0.5,4.166666666666667,0.7649572649572649,1.3072625698324023,234,True,55,Voltage.Va,ATE-N,baseline,180
+154,25,2,0.8603351955307262,0.9871794871794872,0.9194029850746268,2,2,1.0,0,0.5,4.166666666666667,0.7649572649572649,1.3072625698324023,234,True,55,Voltage.Va,ATE-N,+dead-release only,179
+154,25,2,0.8603351955307262,0.9871794871794872,0.9194029850746268,2,2,1.0,0,0.5,4.166666666666667,0.7649572649572649,1.3072625698324023,234,True,55,Voltage.Va,ATE-N,+latch-timeout only,180
+154,25,2,0.8603351955307262,0.9871794871794872,0.9194029850746268,2,2,1.0,0,0.5,4.166666666666667,0.7649572649572649,1.3072625698324023,234,True,55,Voltage.Va,ATE-N,+both (recommendation 1),179
+69,19,3,0.7840909090909091,0.9583333333333334,0.8625,2,2,1.0,0,1.5,12.5,0.37606837606837606,2.659090909090909,234,True,55,Voltage.Vb,ATE-N,baseline,88
+69,19,3,0.7840909090909091,0.9583333333333334,0.8625,2,2,1.0,0,1.5,12.5,0.37606837606837606,2.659090909090909,234,True,55,Voltage.Vb,ATE-N,+dead-release only,88
+69,19,3,0.7840909090909091,0.9583333333333334,0.8625,2,2,1.0,0,1.5,12.5,0.37606837606837606,2.659090909090909,234,True,55,Voltage.Vb,ATE-N,+latch-timeout only,88
+69,19,3,0.7840909090909091,0.9583333333333334,0.8625,2,2,1.0,0,1.5,12.5,0.37606837606837606,2.659090909090909,234,True,55,Voltage.Vb,ATE-N,+both (recommendation 1),88
+7,0,39,1.0,0.15217391304347827,0.2641509433962264,3,1,0.3333333333333333,0,1.0,8.333333333333334,0.029914529914529916,33.42857142857143,234,True,55,Voltage.Vc,ATE-N,baseline,7
+7,0,39,1.0,0.15217391304347827,0.2641509433962264,3,1,0.3333333333333333,0,1.0,8.333333333333334,0.029914529914529916,33.42857142857143,234,True,55,Voltage.Vc,ATE-N,+dead-release only,7
+7,0,39,1.0,0.15217391304347827,0.2641509433962264,3,1,0.3333333333333333,0,1.0,8.333333333333334,0.029914529914529916,33.42857142857143,234,True,55,Voltage.Vc,ATE-N,+latch-timeout only,7
+7,0,39,1.0,0.15217391304347827,0.2641509433962264,3,1,0.3333333333333333,0,1.0,8.333333333333334,0.029914529914529916,33.42857142857143,234,True,55,Voltage.Vc,ATE-N,+both (recommendation 1),7
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-N,baseline,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-N,+dead-release only,180
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-N,+latch-timeout only,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-N,+both (recommendation 1),180
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-N,baseline,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-N,+dead-release only,176
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-N,+latch-timeout only,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-N,+both (recommendation 1),176
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-N,baseline,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-N,+dead-release only,179
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-N,+latch-timeout only,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-N,+both (recommendation 1),179
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-N,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-N,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-N,+both (recommendation 1),0
+12,0,14,1.0,0.46153846153846156,0.631578947368421,3,1,0.3333333333333333,0,1.0,8.333333333333334,0.008368200836820083,119.50000000000001,1434,True,901,Current.Ia,ATE-N,baseline,12
+12,0,14,1.0,0.46153846153846156,0.631578947368421,3,1,0.3333333333333333,0,1.0,8.333333333333334,0.008368200836820083,119.50000000000001,1434,True,901,Current.Ia,ATE-N,+dead-release only,12
+12,0,14,1.0,0.46153846153846156,0.631578947368421,3,1,0.3333333333333333,0,1.0,8.333333333333334,0.008368200836820083,119.50000000000001,1434,True,901,Current.Ia,ATE-N,+latch-timeout only,12
+12,0,14,1.0,0.46153846153846156,0.631578947368421,3,1,0.3333333333333333,0,1.0,8.333333333333334,0.008368200836820083,119.50000000000001,1434,True,901,Current.Ia,ATE-N,+both (recommendation 1),12
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-N,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-N,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-N,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-N,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-N,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-N,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-N,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-N,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-N,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-N,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-N,+both (recommendation 1),5
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-N,+both (recommendation 1),0
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-N,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-N,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-N,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-N,+both (recommendation 1),6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-N,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-N,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-N,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-N,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-N,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-N,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-N,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-N,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-N,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-N,+both (recommendation 1),0
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-N,baseline,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-N,+dead-release only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-N,+latch-timeout only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ia,ATE-N,+both (recommendation 1),4
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-N,baseline,3
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-N,+dead-release only,2
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-N,+latch-timeout only,3
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-N,+both (recommendation 1),2
+3,0,1,1.0,0.75,0.8571428571428571,1,1,1.0,0,1.0,8.333333333333334,0.13043478260869565,7.666666666666667,23,True,971,Current.Ic,ATE-N,baseline,3
+3,0,1,1.0,0.75,0.8571428571428571,1,1,1.0,0,1.0,8.333333333333334,0.13043478260869565,7.666666666666667,23,True,971,Current.Ic,ATE-N,+dead-release only,3
+3,0,1,1.0,0.75,0.8571428571428571,1,1,1.0,0,1.0,8.333333333333334,0.13043478260869565,7.666666666666667,23,True,971,Current.Ic,ATE-N,+latch-timeout only,3
+3,0,1,1.0,0.75,0.8571428571428571,1,1,1.0,0,1.0,8.333333333333334,0.13043478260869565,7.666666666666667,23,True,971,Current.Ic,ATE-N,+both (recommendation 1),3
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Va,ATE-X,+both (recommendation 1),0
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.21052631578947367,4.75,19,True,7,Voltage.Vb,ATE-X,baseline,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.21052631578947367,4.75,19,True,7,Voltage.Vb,ATE-X,+dead-release only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.21052631578947367,4.75,19,True,7,Voltage.Vb,ATE-X,+latch-timeout only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.21052631578947367,4.75,19,True,7,Voltage.Vb,ATE-X,+both (recommendation 1),4
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Voltage.Vc,ATE-X,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ia,ATE-X,+both (recommendation 1),0
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-X,baseline,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-X,+dead-release only,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-X,+latch-timeout only,6
+6,0,3,1.0,0.6666666666666666,0.8,2,1,0.5,0,0.0,0.0,0.3157894736842105,3.166666666666667,19,True,7,Current.Ib,ATE-X,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,19,False,7,Current.Ic,ATE-X,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,ATE-X,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,ATE-X,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,ATE-X,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Va,ATE-X,+both (recommendation 1),5
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-X,baseline,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-X,+dead-release only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-X,+latch-timeout only,4
+3,1,0,0.75,1.0,0.8571428571428571,1,1,1.0,0,0.0,0.0,0.017094017094017096,58.49999999999999,234,True,45,Voltage.Vb,ATE-X,+both (recommendation 1),4
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-X,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-X,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-X,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Voltage.Vc,ATE-X,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-X,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-X,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-X,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ia,ATE-X,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-X,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-X,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-X,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.021367521367521368,46.8,234,True,45,Current.Ib,ATE-X,+both (recommendation 1),5
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-X,baseline,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-X,+dead-release only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-X,+latch-timeout only,7
+6,1,0,0.8571428571428571,1.0,0.923076923076923,1,1,1.0,0,0.0,0.0,0.029914529914529916,33.42857142857143,234,True,45,Current.Ic,ATE-X,+both (recommendation 1),7
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-X,baseline,181
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-X,+dead-release only,180
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-X,+latch-timeout only,181
+155,25,1,0.8611111111111112,0.9935897435897436,0.9226190476190477,2,2,1.0,0,0.0,0.0,0.7692307692307693,1.2999999999999998,234,True,55,Voltage.Va,ATE-X,+both (recommendation 1),180
+71,19,1,0.7888888888888889,0.9861111111111112,0.8765432098765433,2,2,1.0,0,0.5,4.166666666666667,0.38461538461538464,2.5999999999999996,234,True,55,Voltage.Vb,ATE-X,baseline,90
+71,19,1,0.7888888888888889,0.9861111111111112,0.8765432098765433,2,2,1.0,0,0.5,4.166666666666667,0.38461538461538464,2.5999999999999996,234,True,55,Voltage.Vb,ATE-X,+dead-release only,90
+71,19,1,0.7888888888888889,0.9861111111111112,0.8765432098765433,2,2,1.0,0,0.5,4.166666666666667,0.38461538461538464,2.5999999999999996,234,True,55,Voltage.Vb,ATE-X,+latch-timeout only,90
+71,19,1,0.7888888888888889,0.9861111111111112,0.8765432098765433,2,2,1.0,0,0.5,4.166666666666667,0.38461538461538464,2.5999999999999996,234,True,55,Voltage.Vb,ATE-X,+both (recommendation 1),90
+42,19,4,0.6885245901639344,0.9130434782608695,0.7850467289719626,3,3,1.0,0,0.0,0.0,0.2606837606837607,3.8360655737704916,234,True,55,Voltage.Vc,ATE-X,baseline,61
+42,19,4,0.6885245901639344,0.9130434782608695,0.7850467289719626,3,3,1.0,0,0.0,0.0,0.2606837606837607,3.8360655737704916,234,True,55,Voltage.Vc,ATE-X,+dead-release only,61
+42,19,4,0.6885245901639344,0.9130434782608695,0.7850467289719626,3,3,1.0,0,0.0,0.0,0.2606837606837607,3.8360655737704916,234,True,55,Voltage.Vc,ATE-X,+latch-timeout only,61
+42,19,4,0.6885245901639344,0.9130434782608695,0.7850467289719626,3,3,1.0,0,0.0,0.0,0.2606837606837607,3.8360655737704916,234,True,55,Voltage.Vc,ATE-X,+both (recommendation 1),61
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-X,baseline,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-X,+dead-release only,180
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-X,+latch-timeout only,181
+147,33,0,0.8166666666666667,1.0,0.8990825688073394,2,2,1.0,0,0.0,0.0,0.7758620689655172,1.288888888888889,232,True,55,Current.Ia,ATE-X,+both (recommendation 1),180
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-X,baseline,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-X,+dead-release only,176
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-X,+latch-timeout only,177
+176,0,0,1.0,1.0,1.0,2,2,1.0,0,0.0,0.0,0.7553648068669528,1.3238636363636362,233,True,55,Current.Ib,ATE-X,+both (recommendation 1),176
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-X,baseline,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-X,+dead-release only,179
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-X,+latch-timeout only,180
+70,109,0,0.39106145251396646,1.0,0.5622489959839357,2,2,1.0,0,0.0,0.0,0.8443396226415094,1.1843575418994414,212,True,55,Current.Ic,ATE-X,+both (recommendation 1),179
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Va,ATE-X,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vb,ATE-X,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Voltage.Vc,ATE-X,+both (recommendation 1),0
+20,0,6,1.0,0.7692307692307693,0.8695652173913044,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.01394700139470014,71.7,1434,True,901,Current.Ia,ATE-X,baseline,20
+20,0,6,1.0,0.7692307692307693,0.8695652173913044,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.01394700139470014,71.7,1434,True,901,Current.Ia,ATE-X,+dead-release only,20
+20,0,6,1.0,0.7692307692307693,0.8695652173913044,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.01394700139470014,71.7,1434,True,901,Current.Ia,ATE-X,+latch-timeout only,20
+20,0,6,1.0,0.7692307692307693,0.8695652173913044,3,2,0.6666666666666666,0,0.5,4.166666666666667,0.01394700139470014,71.7,1434,True,901,Current.Ia,ATE-X,+both (recommendation 1),20
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ib,ATE-X,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1434,False,901,Current.Ic,ATE-X,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Voltage.Va,ATE-X,+both (recommendation 1),0
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-X,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-X,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-X,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vb,ATE-X,+both (recommendation 1),5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-X,baseline,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-X,+dead-release only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-X,+latch-timeout only,5
+5,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.0041876046901172526,238.8,1194,True,907,Voltage.Vc,ATE-X,+both (recommendation 1),5
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,1194,False,907,Current.Ia,ATE-X,+both (recommendation 1),0
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-X,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-X,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-X,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ib,ATE-X,+both (recommendation 1),6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-X,baseline,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-X,+dead-release only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-X,+latch-timeout only,6
+6,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.005025125628140704,199.0,1194,True,907,Current.Ic,ATE-X,+both (recommendation 1),6
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Va,ATE-X,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vb,ATE-X,+both (recommendation 1),0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-X,baseline,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-X,+dead-release only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-X,+latch-timeout only,0
+0,0,0,0.0,0.0,0.0,0,0,,0,,,0.0,inf,23,False,971,Voltage.Vc,ATE-X,+both (recommendation 1),0
+4,2,0,0.6666666666666666,1.0,0.8,1,1,1.0,0,0.0,0.0,0.2608695652173913,3.8333333333333335,23,True,971,Current.Ia,ATE-X,baseline,6
+4,2,0,0.6666666666666666,1.0,0.8,1,1,1.0,0,0.0,0.0,0.2608695652173913,3.8333333333333335,23,True,971,Current.Ia,ATE-X,+dead-release only,6
+4,2,0,0.6666666666666666,1.0,0.8,1,1,1.0,0,0.0,0.0,0.2608695652173913,3.8333333333333335,23,True,971,Current.Ia,ATE-X,+latch-timeout only,6
+4,2,0,0.6666666666666666,1.0,0.8,1,1,1.0,0,0.0,0.0,0.2608695652173913,3.8333333333333335,23,True,971,Current.Ia,ATE-X,+both (recommendation 1),6
+2,3,1,0.4,0.6666666666666666,0.5,1,1,1.0,0,1.0,8.333333333333334,0.22727272727272727,4.4,22,True,971,Current.Ib,ATE-X,baseline,6
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-X,+dead-release only,2
+2,3,1,0.4,0.6666666666666666,0.5,1,1,1.0,0,1.0,8.333333333333334,0.22727272727272727,4.4,22,True,971,Current.Ib,ATE-X,+latch-timeout only,6
+2,0,1,1.0,0.6666666666666666,0.8,1,1,1.0,0,1.0,8.333333333333334,0.09090909090909091,11.0,22,True,971,Current.Ib,ATE-X,+both (recommendation 1),2
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-X,baseline,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-X,+dead-release only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-X,+latch-timeout only,4
+4,0,0,1.0,1.0,1.0,1,1,1.0,0,0.0,0.0,0.17391304347826086,5.75,23,True,971,Current.Ic,ATE-X,+both (recommendation 1),4

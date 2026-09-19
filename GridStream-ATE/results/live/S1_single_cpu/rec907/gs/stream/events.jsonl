@@ -1,0 +1,2 @@
+{"feeder": 0, "start_report": 240, "start_s": 2.0, "channels": [1, 2], "pre_reports": 6, "end_report": 255, "end_s": 2.1333333333333333, "duration_s": 0.1333333333333333}
+{"feeder": 0, "start_report": 1199, "start_s": 9.991666666666667, "channels": [0, 2], "pre_reports": 6, "end_report": 1200, "open_at_end": true}

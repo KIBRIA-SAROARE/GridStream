@@ -1,0 +1,17 @@
+[
+ {
+  "feeder": 0,
+  "start_report": 21,
+  "start_s": 0.17497562560935975,
+  "channels": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "pre_reports": 6,
+  "end_report": 39,
+  "end_s": 0.3333116672083198,
+  "duration_s": 0.15833604159896003
+ }
+]

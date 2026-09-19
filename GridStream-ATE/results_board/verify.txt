@@ -1,0 +1,105 @@
+[PASS] Part 1 reproduction ATE-Q int8, floor=hard (micro 0.3706 vs 0.3706)
+[PASS] Part 1 reproduction ATE-S int8, floor=hard (micro 0.3773 vs 0.3773)
+[PASS] Part 1 reproduction ATE-M int8, floor=hard (micro 0.3786 vs 0.3786)
+[PASS] Part 1 reproduction GridStream fixed TH/TL 
+[PASS] lane engine == run_engine [ATE-Q] (0 mismatches / 30558 reports)
+[PASS] lane engine == run_engine [ATE-S] (0 mismatches / 30558 reports)
+[PASS] lane engine == run_engine [ATE-M] (0 mismatches / 30558 reports)
+[PASS] lane engine == run_engine [ATE-N] (0 mismatches / 30558 reports)
+[PASS] lane engine == run_engine [ATE-X] (0 mismatches / 30558 reports)
+[PASS] lane engine == run_engine [Fixed margin] (0 mismatches / 30558 reports)
+[PASS] streaming stage A == process_channel, record 7 
+[PASS] GPU code path (emulated, float64), record 7 (max |db| 0.00e+00 oct)
+[PASS] streaming stage A == process_channel, record 45 
+[PASS] GPU code path (emulated, float64), record 45 (max |db| 0.00e+00 oct)
+[PASS] streaming stage A == process_channel, record 55 
+[PASS] GPU code path (emulated, float64), record 55 (max |db| 0.00e+00 oct)
+[PASS] streaming stage A == process_channel, record 677 
+[PASS] GPU code path (emulated, float64), record 677 (max |db| 0.00e+00 oct)
+[PASS] streaming stage A == process_channel, record 901 
+[PASS] GPU code path (emulated, float64), record 901 (max |db| 0.00e+00 oct)
+[PASS] streaming stage A == process_channel, record 907 
+[PASS] GPU code path (emulated, float64), record 907 (max |db| 0.00e+00 oct)
+[PASS] streaming stage A == process_channel, record 971 
+[PASS] GPU code path (emulated, float64), record 971 (max |db| 0.00e+00 oct)
+[PASS] CUDA float64 flags == CPU flags, record 7 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float64 flags == CPU flags, record 45 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float64 flags == CPU flags, record 55 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float64 flags == CPU flags, record 677 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float64 flags == CPU flags, record 901 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float64 flags == CPU flags, record 907 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float64 flags == CPU flags, record 971 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float32 flags == CPU flags, record 7 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float32 flags == CPU flags, record 45 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float32 flags == CPU flags, record 55 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float32 flags == CPU flags, record 677 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float32 flags == CPU flags, record 901 (0 mismatches over 6 engines; max |db| 1.94e-02 oct)
+[PASS] CUDA float32 flags == CPU flags, record 907 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] CUDA float32 flags == CPU flags, record 971 (0 mismatches over 6 engines; max |db| 0.00e+00 oct)
+[PASS] live flags == reference, record 45 ATE-M (0 mismatches)
+[PASS] live flags == reference, record 45 ATE-N (0 mismatches)
+[PASS] live flags == reference, record 45 ATE-Q (0 mismatches)
+[PASS] live flags == reference, record 45 ATE-S (0 mismatches)
+[PASS] live flags == reference, record 45 ATE-X (0 mismatches)
+[PASS] live flags == reference, record 45 Fixed margin (0 mismatches)
+[PASS] live flags == reference, record 45 GridStream (0 mismatches)
+[PASS] live flags == reference, record 55 ATE-M (0 mismatches)
+[PASS] live flags == reference, record 55 ATE-N (0 mismatches)
+[PASS] live flags == reference, record 55 ATE-Q (0 mismatches)
+[PASS] live flags == reference, record 55 ATE-S (0 mismatches)
+[PASS] live flags == reference, record 55 ATE-X (0 mismatches)
+[PASS] live flags == reference, record 55 Fixed margin (0 mismatches)
+[PASS] live flags == reference, record 55 GridStream (0 mismatches)
+[PASS] live flags == reference, record 7 ATE-M (0 mismatches)
+[PASS] live flags == reference, record 7 ATE-N (0 mismatches)
+[PASS] live flags == reference, record 7 ATE-Q (0 mismatches)
+[PASS] live flags == reference, record 7 ATE-S (0 mismatches)
+[PASS] live flags == reference, record 7 ATE-X (0 mismatches)
+[PASS] live flags == reference, record 7 Fixed margin (0 mismatches)
+[PASS] live flags == reference, record 7 GridStream (0 mismatches)
+[PASS] live flags == reference, record 901 ATE-M (0 mismatches)
+[PASS] live flags == reference, record 901 ATE-N (0 mismatches)
+[PASS] live flags == reference, record 901 ATE-Q (0 mismatches)
+[PASS] live flags == reference, record 901 ATE-S (0 mismatches)
+[PASS] live flags == reference, record 901 ATE-X (0 mismatches)
+[PASS] live flags == reference, record 901 Fixed margin (0 mismatches)
+[PASS] live flags == reference, record 901 GridStream (0 mismatches)
+[PASS] live flags == reference, record 907 ATE-M (0 mismatches)
+[PASS] live flags == reference, record 907 ATE-N (0 mismatches)
+[PASS] live flags == reference, record 907 ATE-Q (0 mismatches)
+[PASS] live flags == reference, record 907 ATE-S (0 mismatches)
+[PASS] live flags == reference, record 907 ATE-X (0 mismatches)
+[PASS] live flags == reference, record 907 Fixed margin (0 mismatches)
+[PASS] live flags == reference, record 907 GridStream (0 mismatches)
+[PASS] live flags == reference, record 971 ATE-M (0 mismatches)
+[PASS] live flags == reference, record 971 ATE-N (0 mismatches)
+[PASS] live flags == reference, record 971 ATE-Q (0 mismatches)
+[PASS] live flags == reference, record 971 ATE-S (0 mismatches)
+[PASS] live flags == reference, record 971 ATE-X (0 mismatches)
+[PASS] live flags == reference, record 971 Fixed margin (0 mismatches)
+[PASS] live flags == reference, record 971 GridStream (0 mismatches)
+[PASS] ATE-N trained on synthetic only 
+[PASS] ATE-X trained on synthetic only 
+[PASS] fix OFF == run_engine [ATE-Q] (0 mismatches)
+[PASS] fix ON: lane == scalar ref [ATE-Q] (0 mismatches / 30558)
+[PASS] fix OFF == run_engine [ATE-S] (0 mismatches)
+[PASS] fix ON: lane == scalar ref [ATE-S] (0 mismatches / 30558)
+[PASS] fix OFF == run_engine [ATE-M] (0 mismatches)
+[PASS] fix ON: lane == scalar ref [ATE-M] (0 mismatches / 30558)
+[PASS] fix OFF == run_engine [ATE-N] (0 mismatches)
+[PASS] fix ON: lane == scalar ref [ATE-N] (0 mismatches / 30558)
+[PASS] fix OFF == run_engine [ATE-X] (0 mismatches)
+[PASS] fix ON: lane == scalar ref [ATE-X] (0 mismatches / 30558)
+[PASS] fix OFF == run_engine [Fixed margin] (0 mismatches)
+[PASS] fix ON: lane == scalar ref [Fixed margin] (0 mismatches / 30558)
+[PASS] aggregate table == per-channel CSV [GridStream] 
+[PASS] aggregate table == per-channel CSV [Empirical-Q (causal)] 
+[PASS] aggregate table == per-channel CSV [Fixed margin] 
+[PASS] aggregate table == per-channel CSV [ATE-Q] 
+[PASS] aggregate table == per-channel CSV [ATE-S] 
+[PASS] aggregate table == per-channel CSV [ATE-M] 
+[PASS] aggregate table == per-channel CSV [ATE-N] 
+[PASS] aggregate table == per-channel CSV [ATE-X] 
+[PASS] aggregate table == per-channel CSV [Hindsight ceiling †] 
+
+ALL CHECKS PASSED
